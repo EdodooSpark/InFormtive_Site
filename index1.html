@@ -1,0 +1,50 @@
+<html>
+    <head>
+<title>My Complete Website</title>
+<link rel="stylesheet" href="./css/style1.css"> 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+ <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>      
+</head>
+<body>
+
+<div id="slidenav" class="slidenav">
+<a href="javascript:void(0)" class="closeicon" id="closicon" onclick="closnav()">&times;</a>    
+
+<a href="#">Home</a>
+<a href="About.html">About Us</a>
+<a href="service3.html">Services</a>
+<a href="our team.html">Our Team</a>
+<a href="pricing.html">Price Plans</a>
+<a href="testimonial.html">Testimonials </a>
+<a href="service3.html#contact">Contact</a>
+</div> 
+<span class="icon" id="menuicon" onclick="opennav()">&#9776;</span>    
+
+<div class="container">
+<div class="logo">
+<img src="./Logos/logo2.png"></div>
+<div class="image-text">
+<h1>Communication Through Design</h1>
+    <a href="service3.html#contact"><button class="button button-1">Contact Us</button></a>
+</div>
+</div>  
+
+<script>
+   function opennav()
+    {
+      document.getElementById("slidenav").style.width="175px";
+      document.getElementById("menuicon").style.display="none";
+    }
+    function closnav()
+    {
+      document.getElementById("slidenav").style.width="0";
+      document.getElementById("menuicon").style.display="block";
+    }
+</script>    
+    
+</body>
+</html>

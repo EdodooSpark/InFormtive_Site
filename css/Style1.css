@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../photos/no-16.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/*-----Navigation  beginning----*/
+
+.logo img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.image-text{
+    color: lightgray;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    color: lightgray;
+    cursor: pointer; 
+}
+
+.button-1{
+    background: gray;
+    opacity: 0px;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.slidenav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 0px;
+}
+
+.slidenav a{
+    padding:8px 8px 8px 32px;
+    font-size: 20px;
+    color: #000;
+    display: block;
+    transition:0.3s;
+}
+.slidenav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.icon{
+    float: right;
+    margin: 15px 30px;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slidenav .closeicon{
+    position:absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 40 px;
+    margin: 4px;
+    text-decoration: none;
+    color: #000;
+    
+}
+/*---End of navigation---*/

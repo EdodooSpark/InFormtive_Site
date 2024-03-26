@@ -1,0 +1,99 @@
+<html>
+    <head>
+<title>My Complete Website</title>
+<link rel="stylesheet" href="./css/style2.css"> 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+ <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>      
+</head>
+<body>
+    
+<!---Navigation & Logo Begins Here--->
+
+<div id="slidenav" class="slidenav">
+<a href="javascript:void(0)" class="closeicon" id="closicon" onclick="closnav()">&times;</a>    
+
+<a href="index1.html">Home</a>
+<a href="#">About Us</a>
+<a href="service3.html">Services</a>
+<a href="our team.html">Our Team</a>
+<a href="pricing.html">Price Plans</a>
+<a href="testimonial.html">Testimonials </a>
+<a href="service3.html#contact">Contact</a>
+</div> 
+<span class="icon" id="menuicon" onclick="opennav()">&#9776;</span> 
+   
+<!---Logo section--->
+
+<div class="container">
+<div class="logo">
+<img src="./Logos/logo2.png"></div>  
+    
+<!--Navigation & logo end-->
+
+<!--About-->
+
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>About Us</h2>
+<div class="about-content">
+   Lorem ipsum dolor sut amet,consectetur adipisicing<br>elit, sed euismod tempor incididunt ut labore et dolore<br>magna aliqui. Ut enim ad mini veniam, quis nostrud<br>excercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat.Duis aute irure dolor in reprehenderit in<br>voluptate velit esse eillum dolore eu fuguiat nulla<br>pariatur.Excepeur sint occaecat cupidate non proident<br>,sunt incuipa qui offcia deserunt mollit anim id est laborum <br><br>
+Lorem ipsum dolor sut amet,consectetur adipisicing<br>elit, sed euismod tempor incididunt ut labore et dolore<br>magna aliqui. Ut enim ad mini veniam, quis nostrud<br>excercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat.Duis aute irure dolor in reprehenderit in<br>voluptate velit esse eillum dolore eu fuguiat nulla<br>pariatur.Excepeur sint occaecat cupidate non proident<br>,sunt incuipa qui offcia deserunt mollit anim id<br> est laborum....
+</div>
+    
+<button type="button" class="btn btn-primary">Read more>> </button>  
+</div>
+<div class="col-md-6 skills-bar">
+
+<p>Adobe Photoshop</p>
+<div class="progress">
+<div class="progress-bar" style="width: 80%;">80%</div>    
+</div>
+    
+<p>UI Design</p>
+<div class="progress">
+<div class="progress-bar" style="width: 85%;">85%</div>    
+</div>
+    
+<p>WordPress</p>
+<div class="progress">
+<div class="progress-bar" style="width: 76%;">76%</div>    
+</div>
+    
+<p>Graphics Design</p>
+<div class="progress">
+<div class="progress-bar" style="width: 50%;">50%</div>    
+
+</div>     
+</div>
+</div>
+</div>
+    </section>
+
+<!---- Footer ---->
+<section id="footer">
+ <div class="container text-center">
+ <p>We Create With <i class="fa fa-heart"></i> By Gravity</p>   
+</div>   
+</section>  
+
+<script>
+   function opennav()
+    {
+      document.getElementById("slidenav").style.width="175px";
+      document.getElementById("menuicon").style.display="none";
+    }
+    function closnav()
+    {
+      document.getElementById("slidenav").style.width="0";
+      document.getElementById("menuicon").style.display="block";
+    }
+</script>    
+    
+    </body>
+    </html>

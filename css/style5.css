@@ -1,0 +1,178 @@
+/*-------Pricing Section-------*/
+body{
+    
+    margin: 0;
+    padding: 0;
+    background: url(../photos/no-27.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*------Logo section-----*/
+
+.logo img{
+    width: 150px;
+    margin-top: 10px;
+}
+/*------Navigation begins-----*/
+
+.slidenav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 0px;
+}
+
+.slidenav a{
+    padding:8px 8px 8px 32px;
+    font-size: 20px;
+    color: #000;
+    display: block;
+    transition:0.3s;
+}
+.slidenav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.icon{
+    float: right;
+    margin: 15px 30px;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slidenav .closeicon{
+    position:absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 40 px;
+    margin: 4px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+/*------Ending of navigation css------*/
+
+.pricing-table{
+    
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     flex-wrap: wrap;
+}
+
+.col{
+   flex:25;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;  
+}
+
+.table{
+    
+    background: #fff;
+    padding: 40px 20px;
+    font-family: "serif" sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+
+.table:hover{
+    background: cornflowerblue;
+    color: #fff !important;
+}
+
+.table h2{
+    
+    text-transform: uppercase;
+}
+
+.table ul{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.table ul li{
+    
+    padding: 10px 0;
+    list-style:georgian;
+}
+
+.price{
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.price span{
+    
+    display: block;
+    font-size: 14px;    
+}
+
+.table a{
+    
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding:  10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size:  14px;
+    transform: 0.5s linear;
+}
+
+.table a:hover{
+    background: #2c3e50;
+    color: #fff;
+}
+
+.pop{
+    
+    background: #2c3e50;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top: 12px;
+    right: -34px;
+}
+
+@media screen and (max-width:700px){
+    .col{
+       flex: 100%; 
+}  
+    
+}
+
+
+/*-----Footer section----*/
+
+#footer{
+   background: grey;
+   color: #fff;
+   padding: 12px;
+   margin-top: 11px;
+}
+
+.fa-heart-o{
+    margin: 3px;
+    color: red;
+    
+}

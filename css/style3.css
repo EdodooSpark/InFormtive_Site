@@ -1,0 +1,167 @@
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../photos/no-5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+}
+
+/*-----Navigation & Logo Beginning------*/
+
+.logo img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+.slidenav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 0px;
+}
+
+.slidenav a{
+    padding:8px 8px 8px 32px;
+    font-size: 20px;
+    color: #000;
+    display: block;
+    transition:0.3s;
+}
+.slidenav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.icon{
+    float: right;
+    margin: 15px 30px;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slidenav .closeicon{
+    position:absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 40 px;
+    margin: 4px;
+    text-decoration: none;
+    color: #000;
+    
+}
+/*---End of navigation---*/
+
+#services{
+    margin-top: 60px;
+    text-align: center;
+}
+h1{
+   
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#services h1::after{
+    
+    content: '';
+    background: white;
+    display: block;
+    width: 170px;
+    height: 3px;
+    margin: 15px auto 5px;
+    
+}
+.icon1{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#services .col-md-3:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+    cursor: pointer;
+    color: cadetblue;
+    transition: 0.4s;
+    background: #0f0f0f;
+}
+#services p{
+    
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+
+/*-----contact section----*/
+
+#contact{
+    
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+h1{
+    
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+.contact-form{
+    padding: 15px;
+    
+}
+
+.form-control{
+    
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: #999 !important;
+}
+ .follow {
+    background: #fff;
+    padding: 8px 20px;
+     gap: 10px;
+ margin:15px
+
+}
+b{ padding: 8px 20px;
+
+}
+
+.contact info .fa{
+   
+    margin: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+/*-----Footer section----*/
+
+#footer{
+   background: #333;
+   color: #fff;
+   padding: 12px;
+ 
+}
+
+.fa-heart-o{
+    margin: 3px;
+    color: red;
+    
+}

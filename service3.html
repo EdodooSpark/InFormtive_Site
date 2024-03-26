@@ -1,0 +1,153 @@
+<html>
+    <head>
+<title>My Complete Website</title>
+<link rel="stylesheet" href="./css/style3.css"> 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+ <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> 
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>      
+</head>
+<body>
+<!-- navigation-->
+    
+  <div id="slidenav" class="slidenav">
+<a href="javascript:void(0)" class="closeicon" id="closicon" onclick="closnav()">&times;</a>    
+
+<a href="index1.html">Home</a>
+<a href="About.html">About Us</a>
+<a href="#">Services</a>
+<a href="our team.html">Our Team</a>
+<a href="pricing.html">Price Plans</a>
+<a href="testimonial.html">Testimonials </a>
+<a href="#contact">Contact</a>
+</div> 
+<span class="icon" id="menuicon" onclick="opennav()">&#9776;</span>    
+
+<div class="container">
+<div class="logo">
+<img src="./Logos/logo2.png"></div>  
+    </div>   
+    
+<!--skip to Down-->
+    
+ <section id="services">  
+<div class="container">   
+<div class="services">
+<h1>Our Services</h1>   
+</div>
+    <div class="row">
+    
+    <div class="col-md-3 text-center">
+    <div class="icon1">
+     <i class="fa fa-desktop"></i>  
+     </div>
+     <h3>Web Development</h3>
+     <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit, sed euismod tempor incididunt ut labore et dolore magna aliqui. Ut enim ad mini veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>  
+    
+     <div class="col-md-3 text-center">
+     <div class="icon1">
+     <i class="fa fa-tablet"></i>  
+     </div>
+     <h3>App Development</h3>
+     <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit, sed euismod tempor incididunt ut labore et dolore magna aliqui. Ut enim ad mini veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>  
+    
+     <div class="col-md-3 text-center">
+     <div class="icon1">
+     <i class="fab fa-line-chart"></i>  
+      </div>
+     <h3>Digital Design</h3>
+     <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit, sed euismod tempor incididunt ut labore et dolore magna aliqui. Ut enim ad mini veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>  
+    
+     <div class="col-md-3 text-center">
+     <div class="icon1">
+     <i class="fa fa-paint-brush"></i>  
+     </div>
+     <h3>Graphics Design</h3>
+     <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit, sed euismod tempor incididunt ut labore et dolore magna aliqui. Ut enim ad mini veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>  
+    
+    </div>
+</div>
+ </section>
+    
+<!--  contact section  -->
+    
+  <section id="contact">
+<div class="container">
+     <h1><center>Get In Touch</center></h1>
+<div class="row">
+<div class="col-md-6">
+<form class="contact-form">
+    
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Your name">
+</div>
+    
+ <div class="form-group">
+<input type="number" class="form-control" placeholder="Phone no.">
+</div> 
+    
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Email id">
+</div>
+    
+<div class="form-group">
+<textarea class="form-control" row="4" placeholder="Message"></textarea>
+</div>
+    
+ <button type="submit" class="btn btn-primary">SEND MESSAGE</button> 
+    
+</form>
+</div>
+    
+<div class="col-md-6 contact-info">
+    
+<div class="follow"><b>Address:</b><i class="fa fa-map"></i>Osafo Dazie,   Crescent road</div> 
+
+
+<div class="follow"><b>Phone:</b><i class="fa fa-phone"></i>+1 1234567890</div>
+    
+ 
+<div class="follow"><b>Email:</b><i class="fa fa-envelope"></i>Example@website.com</div>  
+  
+ <div class="follow"><label><b>Get Social:</b></label>
+     
+ <a href="#"><i class="fab fa-facebook"></i></a>  
+ <a href="#"><i class="fab fa-youtube"></i></a>  
+ <a href="#"><i class="fab fa-twitter"></i></a>  
+ <a href="#"><i class="fab fa-google-plus"></i></a>  
+</div> 
+</div>    
+</div>   
+</div>   
+</section>
+    
+<!---- Footer ---->
+<section id="footer">
+ <div class="container text-center">
+ <p>We Create With <i class="fa fa-heart-o"></i> By Gravity</p>   
+</div>   
+</section>  
+<!-- end of contact   -->
+    
+<!--Continuation Of Navigation Slider-->
+   <script>
+   function opennav()
+    {
+      document.getElementById("slidenav").style.width="175px";
+      document.getElementById("menuicon").style.display="none";
+    }
+    function closnav()
+    {
+      document.getElementById("slidenav").style.width="0";
+      document.getElementById("menuicon").style.display="block";
+    }
+</script>       
+<!--end-->
+</body>
+</html>

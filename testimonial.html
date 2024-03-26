@@ -1,0 +1,87 @@
+<html>
+    <head>
+<title>My Complete Website</title>
+<link rel="stylesheet" href="./css/style6.css"> 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+ <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> 
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>      
+</head>
+<body>
+
+<div id="slidenav" class="slidenav">
+<a href="javascript:void(0)" class="closeicon" id="closicon" onclick="closnav()">&times;</a>    
+
+<a href="index1.html">Home</a>
+<a href="About.html">About Us</a>
+<a href="service3.html">Services</a>
+<a href="our team.html">Our Team</a>
+<a href="pricing.html">Price Plans</a>
+<a href="#">Testimonials </a>
+<a href="service3.html#contact">Contact</a>
+</div> 
+<span class="icon" id="menuicon" onclick="opennav()">&#9776;</span>    
+
+<div class="container">
+<div class="logo">
+<img src="./Logos/logo2.png"></div></div>
+
+<!-----testimonials----->
+<section id="testimonials">
+<div class="container">
+<h1><center>Testimonials</center></h1>
+  <p class="text-center">Get Free Domains And Web Hosting At Gravity</p>
+<div class="row">
+    
+<div class="col-md-4 text-center">
+ <div class="profile">
+<img src="./profilepics/pic5.jpg" class="user">
+    <blockquote> Lorem ipsum dolor sut amet,consectetur adipisicingelit, sed euismod tempor incididunt ut labore et doloremagna aliqui. Ut enim ad mini veniam, quis nostrudexcercitation ullamco laboris nisi ut aliquip ex ea commodo</blockquote>
+     <h3>Daniel De-veer<span>Co-Founder at GRAVITY</span></h3>
+</div>   
+</div>  
+    
+    <div class="col-md-4 text-center">
+ <div class="profile">
+<img src="./profilepics/pic1.jpg" class="user">
+    <blockquote> Lorem ipsum dolor sut amet,consectetur adipisicingelit, sed euismod tempor incididunt ut labore et doloremagna aliqui. Ut enim ad mini veniam, quis nostrudexcercitation ullamco laboris nisi ut aliquip ex ea commodo</blockquote>
+     <h3>Emmanuel Dodoo<span>Founder / CEO at GRAVITY</span></h3>
+</div>   
+</div> 
+    
+    <div class="col-md-4 text-center">
+ <div class="profile">
+<img src="./profilepics/pic4.jpg" class="user">
+    <blockquote> Lorem ipsum dolor sut amet,consectetur adipisicingelit, sed euismod tempor incididunt ut labore et doloremagna aliqui. Ut enim ad mini veniam, quis nostrudexcercitation ullamco laboris nisi ut aliquip ex ea commodo</blockquote>
+     <h3>Musah Ankrah<span>Graphic Designer at GRAVITY</span></h3>
+</div>   
+</div>    
+    
+</div>
+</div>    
+</section>
+
+<!---- Footer ---->
+<section id="footer">
+ <div class="container text-center">
+ <p>We Create With <i class="fa fa-heart-o"></i> By Gravity</p>   
+</div>   
+</section>  
+    
+    <script>
+   function opennav()
+    {
+      document.getElementById("slidenav").style.width="175px";
+      document.getElementById("menuicon").style.display="none";
+    }
+    function closnav()
+    {
+      document.getElementById("slidenav").style.width="0";
+      document.getElementById("menuicon").style.display="block";
+    }
+</script>    
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+    <head>
+<title>My Complete Website</title>
+<link rel="stylesheet" href="./css/style5.css"> 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+ <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>      
+</head>
+<body>
+    
+<!--Pricing Navigation Begins--->
+    
+<div id="slidenav" class="slidenav">
+<a href="javascript:void(0)" class="closeicon" id="closicon" onclick="closnav()">&times;</a>    
+
+<a href="index1.html">Home</a>
+<a href="About.html">About Us</a>
+<a href="service3.html">Services</a>
+<a href="our team.html">Our Team</a>
+<a href="#">Price Plans</a>
+<a href="testimonial.html">Testimonials </a>
+<a href="service3.html#contact">Contact</a>
+</div> 
+<span class="icon" id="menuicon" onclick="opennav()">&#9776;</span>    
+
+<!---logo--->
+<div class="container">
+<div class="logo">
+    <img src="./Logos/logo2.png"></div> </div>
+    
+<!---logo ends--->
+
+ <section id="Pricing">   
+<div class="pricing-table">
+<div class="col">
+<!-- repeat these   -->
+
+<div class="table">
+<h2>Regular</h2>
+<div class="price">
+  $10
+<span>Per Month</span>
+</div>
+<ul>
+ <li><strong>2</strong>Websites</li> <li><strong>10</strong>Emails</li> <li><strong>100Gb</strong>Storage</li>   
+ <li><strong>1</strong>Account</li></ul>  
+<a href="#">Purchase Now</a> 
+</div>
+</div>
+    
+    
+<div class="col"><div class="table">
+<h2>Pro Pack</h2>
+ 
+ <div class="pop">Popular</div>   
+     
+<div class="price">
+  $15
+<span>Per Month</span>
+</div>
+<ul>
+ <li><strong>3</strong>Websites</li> <li><strong>20</strong>Emails</li> <li><strong>200Gb</strong>Storage</li>   
+ <li><strong>2</strong>Account</li></ul>  
+<a href="#">Purchase Now</a> 
+</div>
+</div>
+    
+    
+<div class="col"><div class="table">
+<h2>Premuim</h2>
+<div class="price">
+  $25
+<span>Per Month</span>
+</div>
+<ul>
+ <li><strong>4</strong>Websites</li> <li><strong>25</strong>Emails</li> <li><strong>300Gb</strong>Storage</li>   
+ <li><strong>3</strong>Account</li></ul>  
+<a href="#">Purchase Now</a> 
+</div>
+</div>
+    
+    
+<div class="col"><div class="table">
+<h2>Ultimate</h2>
+<div class="price">
+  $35
+<span>Per Month</span>
+</div>
+<ul>
+ <li><strong>6</strong>Websites</li> <li><strong>30</strong>Emails</li> <li><strong>500Gb</strong>Storage</li>   
+ <li><strong>4</strong>Account</li></ul>  
+<a href="#">Purchase Now</a> 
+</div>
+</div>
+</div>
+</section>
+
+<!---- Footer ---->
+<section id="footer">
+ <div class="container text-center">
+ <p>We Create With <i class="fa fa-heart-o"></i> By Gravity</p>   
+</div>   
+</section>  
+    
+  <script>
+   function opennav()
+    {
+      document.getElementById("slidenav").style.width="175px";
+      document.getElementById("menuicon").style.display="none";
+    }
+    function closnav()
+    {
+      document.getElementById("slidenav").style.width="0";
+      document.getElementById("menuicon").style.display="block";
+    }
+</script>      
+    
+</body>
+</html>

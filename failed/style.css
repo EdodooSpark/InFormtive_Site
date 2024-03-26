@@ -1,0 +1,32 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*------navigation-----*/
+
+#nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index:  10;
+    
+}
+.navbar-brand img{
+    height: 150px;
+    padding-left: 30px;
+    
+}
+.navbar-nav li{
+    
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
